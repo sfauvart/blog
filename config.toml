@@ -4,18 +4,21 @@ title = "Blog"
 theme = "minimal"
 disqusShortname = "www-sebastien-fauvart-fr" # delete this to disable disqus comments
 googleAnalytics = "UA-40228055-5"
+staticDir = ["static"]
+DefaultContentLanguage = "fr"
 
 [params]
     author = "Sébastien FAUVART"
     description = "Vis ma vie de développeur (couteau ch’ti) passionné"
     githubUsername = "sfauvart"
-    accent = "red"
+    accent = "#1B9DEA"
     showBorder = true
     backgroundColor = "white"
     font = "Raleway" # should match the name on Google Fonts!
     highlight = true
     highlightStyle = "agate"
-    highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
+    highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift", "console", "bash", "docker", "dockerfile", "toml"]
+    css = ["css/custom.css"]
 
 [[menu.main]]
     url = "/"
